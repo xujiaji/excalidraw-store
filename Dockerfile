@@ -9,6 +9,7 @@ COPY tsconfig.json ./
 COPY esbuild.js ./
 COPY index.html ./
 COPY index.ts ./
+COPY favicon.ico ./
 RUN yarn build
 
 EXPOSE 80
